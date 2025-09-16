@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: produtos-api
+    env: node
+    region: sa-east-1   # South America (São Paulo)
+    plan: free
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm start"
+    envVars:
+      - key: DATABASE_URL
+        sync: false   # vai pegar do painel do Render (defina lá)
+      - key: DIRECT_URL
+        sync: false   # opcional, só se você usar Prisma Migrate
+      - key: NODE_ENV
+        value: production

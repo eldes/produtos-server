@@ -141,3 +141,11 @@ vite.config.ts.timestamp-*
 # SQLite database files
 *.sqlite
 *.sqlite3
+/src/generated/prisma
+
+# Arquivos de variáveis de ambiente
+.env
+.env.*
+
+# Prisma Client gerado fora do node_modules
+/src/generated/

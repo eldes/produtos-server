@@ -1,7 +1,6 @@
 {
 	"name": "tutorial-rest-api-nodejs-express-sqlite-typescript",
 	"version": "1.0.1",
-	"main": "./src/index.ts",
 	"license": "MIT",
 	"scripts": {
 		"dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"npx ts-node ./src/index.ts\"",

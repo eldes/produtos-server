@@ -1,5 +1,5 @@
 {
-	"name": "tutorial-rest-api-nodejs-express-sqlite-typescript",
+	"name": "produtos-server",
 	"version": "1.0.1",
 	"license": "MIT",
 	"scripts": {
